@@ -1,0 +1,26 @@
+.app-shell {
+  font-family: Inter, system-ui, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0b2545 0%, #1e428a 100%);
+  color: #f8f9fa;
+  text-align: center;
+  padding: 2rem;
+}
+
+.app-shell header {
+  max-width: 720px;
+}
+
+.app-shell h1 {
+  font-size: clamp(2.5rem, 3vw, 4rem);
+  margin: 0 0 1rem;
+}
+
+.app-shell p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 0;
+}
